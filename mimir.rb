@@ -1,8 +1,8 @@
 class Mimir < Formula
   desc ""
   homepage "http://mimirdb.info"
-  url "http://maven.mimirdb.info/info/mimirdb/mimir-core_2.10/0.2-SNAPSHOT/Mimir.jar", using: :curl
-  version "0.2-SNAPSHOT"
+  url "http://maven.mimirdb.info/info/mimirdb/mimir-core_2.11/0.2/Mimir.jar", using: :curl
+  version "0.2"
   sha256 ""
 
   depends_on "sbt" => :build
