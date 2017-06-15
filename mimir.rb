@@ -1,5 +1,5 @@
 class Mimir < Formula
-  desc "The Mimir data-ish exploration tool (alpha version).\nhttp://mimirdb.info"
+  desc "The Mimir data-ish exploration tool (alpha version)."
   homepage "http://mimirdb.info"
   url "http://maven.mimirdb.info/info/mimirdb/mimir-core_2.11/0.2/Mimir.jar", using: :curl
   version "0.2.1"
