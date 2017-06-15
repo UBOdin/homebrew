@@ -6,7 +6,7 @@ class Mimir < Formula
   sha256 "030973c5d5e3c990ac73e26a882328179d2f7db07058688246d7d4883292b66a"
 
   depends_on "sbt" => :build
-  depends_on "java"
+  depends_on "caskroom/cask/java"
 
   def install
     File.open("mimir", "w+") do |f| 
