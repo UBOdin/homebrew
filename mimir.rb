@@ -3,7 +3,6 @@ class Mimir < Formula
   homepage "http://mimirdb.info"
   url "http://maven.mimirdb.info/info/mimirdb/mimir-core_2.11/0.2/Mimir.jar", using: :curl
   version "0.2.1"
-  sha256 "030973c5d5e3c990ac73e26a882328179d2f7db07058688246d7d4883292b66a"
 
   depends_on "sbt" => :build
   depends_on :java => "1.6+"
